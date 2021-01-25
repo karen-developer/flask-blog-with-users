@@ -1,4 +1,4 @@
-Full Stack Blog Built with Python, Flask, and SQLite 
+Full Stack Responsive Blog Built with Python, Flask, and SQLite 
 
 Deployed on Heroku + PostgreSQL
 https://flask-blog-with-users.herokuapp.com/

@@ -1,0 +1,43 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is where it all begins.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+       <p>My name is <span class="pink-text">Karen Chang</span>, a web developer from Taipei, Taiwan and
+        located in Melbourne, Australia. </p>
+
+      <p>COVID-19 has changed the world forever. During the lockdown period, I motivated myself to pick up something
+        that I am always interested in, to not only stay home to save lives, but also learn some new skills for
+        self-improvement.</p>
+
+      <p><a href="https://www.udemy.com/" target="_blank">Udemy</a> and <a href="https://www.freecodecamp.org/learn"
+          target="_blank">freeCodeCamp</a> made it
+        easier for me to get started and now I am able to write and understand code that I
+        previously perceived as
+        too complicated. </p>
+
+      <p>I've been staying highly motivated since my <span class="pink-text">first line of code in April 2020</span>
+        and will continue my journey to explore the world of programming! </p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
